@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+</head>
+<body>
+    
+   <img id="image" src="images/MrBeast.jpg" width="700" height="700" style="border: 4px solid black;">
+   <button onclick="changeImage()">Change Image</button>;
+   <button onclick="revertImage()">Revert Image</button>;
+   <script>
+    function changeImage(){
+        image.src="images/MrBeast_Burger.png";
+    }
+
+    function revertImage(){
+        image.src="images/MrBeast.jpg"
+    }
+    </script>
+
+</body>
+</html>
